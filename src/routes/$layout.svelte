@@ -1,6 +1,7 @@
 <script>
-	import Header from '$lib/Header/index.svelte';
-	import '../app.css';
+	import Header from "$lib/Header/index.svelte";
+	import "../app.css";
+	const year = new Date().getFullYear();
 </script>
 
 <Header />
@@ -10,7 +11,12 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<p>
+		plannings équipe Arcs de Seine &copy; {year}
+	</p>
+	<p>
+		<a href="https://github.com/Fabezio/svelte-plannings">code source</a>
+	</p>
 </footer>
 
 <style>
@@ -20,15 +26,15 @@
 		flex-direction: column;
 		padding: 1rem;
 		width: 100%;
-		max-width: 1024px;
+		max-width: 1200px;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
 
 	footer {
 		display: flex;
-		flex-direction: column;
-		justify-content: center;
+		flex-direction: row;
+		justify-content: space-evenly;
 		align-items: center;
 		padding: 40px;
 	}
@@ -37,9 +43,9 @@
 		font-weight: bold;
 	}
 
-	@media (min-width: 480px) {
+	/* @media (min-width: 480px) {
 		footer {
 			padding: 40px 0;
 		}
-	}
+	} */
 </style>
