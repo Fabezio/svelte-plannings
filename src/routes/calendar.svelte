@@ -8,7 +8,6 @@
     const days = "lundi mardi mercredi jeudi vendredi samedi dimanche".split(" ")
     const formatter = Intl.DateTimeFormat("fr", options)
     const line = 7
-    const 
 </script>
 <h1>Calendrier</h1>
 <!-- <p>{formatter.month(date)}</p> -->
