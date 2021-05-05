@@ -1,5 +1,6 @@
 <script>
 	import Header from "$lib/Header/index.svelte";
+	// import connection from "../services/mongoose.js";
 	import "../app.css";
 	const year = new Date().getFullYear();
 </script>
@@ -7,6 +8,7 @@
 <Header />
 
 <main>
+	<!-- {@debug connection} -->
 	<slot />
 </main>
 
@@ -36,7 +38,7 @@
 		flex-direction: row;
 		justify-content: space-evenly;
 		align-items: center;
-		padding: 40px;
+		padding: 20px;
 	}
 
 	footer a {
