@@ -35,8 +35,9 @@
             <div class="nb">
                 {jour}
             </div>
-            <Eff chef={chefJour} agent={agentJour} />
-            <Eff chef={chefNuit} agent={agentNuit} />
+
+            <Eff vac="🌞" chef={chefJour} agent={agentJour} />
+            <Eff vac="🌜" chef={chefNuit} agent={agentNuit} />
         </div>
     {/if}
 {/each}

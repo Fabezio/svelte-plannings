@@ -17,7 +17,9 @@
 		plannings équipe Arcs de Seine &copy; {year}
 	</p>
 	<p>
-		<a href="https://github.com/Fabezio/svelte-plannings">code source</a>
+		<a href="https://github.com/Fabezio/svelte-plannings" target="_blank"
+			>code source</a
+		>
 	</p>
 </footer>
 
